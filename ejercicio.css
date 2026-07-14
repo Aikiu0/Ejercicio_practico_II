@@ -1,17 +1,16 @@
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  background: #f4f4f4;
+body { background: #1e1e2f; }
+.app { background: #2b2b3d; color: #fff; }
+h1 { color: #7f5af0; margin-bottom: 16px; }
+#add-btn {
+  background: #7f5af0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.app {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 400px;
+#add-btn:hover { background: #6b46e0; }
+li {
+  list-style: none;
+  padding: 8px;
+  border-bottom: 1px solid #444;
 }
-.input-container { display: flex; gap: 8px; margin-bottom: 16px; }
-#task-input { flex: 1; padding: 8px; }
