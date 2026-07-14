@@ -14,3 +14,4 @@ li {
   padding: 8px;
   border-bottom: 1px solid #444;
 }
+.completed { text-decoration: line-through; opacity: 0.6; }
