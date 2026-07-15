@@ -1,17 +1,2 @@
-body { background: #1e1e2f; }
-.app { background: #2b2b3d; color: #fff; }
-h1 { color: #7f5af0; margin-bottom: 16px; }
-#add-btn {
-  background: #7f5af0;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-#add-btn:hover { background: #6b46e0; }
-li {
-  list-style: none;
-  padding: 8px;
-  border-bottom: 1px solid #444;
-}
-.completed { text-decoration: line-through; opacity: 0.6; }
+
+
